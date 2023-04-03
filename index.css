@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: hsl(185, 41%, 84%);
+}
+main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5%;
+margin-bottom: 10%;
+background-color: white;
+width: 800px;
+height: 500px;
+border-radius: 15px;
+}
+.billH{
+    font-size: 16px;
+    color: hsl(186, 14%, 43%);
+    display: flex;
+    justify-content: flex-start;
+}
+.select{
+    font-size: 16px;
+    color: hsl(186, 14%, 43%);
+    display: flex;
+    justify-content: flex-start;
+}
+.number{
+    padding-right: 33%;
+    font-size: 16px;
+    color: hsl(186, 14%, 43%);
+    display: flex;
+    justify-content: flex-start;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.left header{
+    text-align: center;
+    height: 20%;
+    color: hsl(0, 0%, 100%);
+}
+.dolla{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dolla input{
+    width: 260px;
+    height: 40px;
+    border: 0;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 5px;
+    background-image: url(icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position: 5px 12px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.left .middle{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.sixDivs{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(70px, auto);
+}
+.left footer{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tenPercent, .fivteenPercent, .twentyFivePercent, .fivtyPercent 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 80px;
+    height: 40px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.tenPercent:hover, .fivteenPercent:hover, .twentyFivePercent:hover, .fivtyPercent:hover
+{
+    background-color:  hsl(172, 67%, 45%);
+}
+.five{
+    width: 80px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    background-color: hsl(183, 100%, 15%);
+    font-weight: 700;
+}
+.five:hover{
+    background-color:  hsl(172, 67%, 45%);
+}
+.custom{
+    display: flex;
+
+}
+.people{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.people input{
+    width: 260px;
+    height: 40px;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 5px;
+    background-image: url(icon-person.svg);
+    background-position: 5px 12px;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    font-weight: 700;
+}
+.cust::placeholder {
+    color: hsl(183, 100%, 15%);
+} 
+.cust{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 80px;
+    border: 0;
+    height: 40px;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.cust {
+    text-align: center;
+  }
+  input{
+    text-align: right;
+  }
+  
+  ::-webkit-input-placeholder {
+    text-align: center;
+  }
+.cust:hover{
+    background-color: hsl(172, 67%, 45%, 0.6);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.green::placeholder {
+    color: hsl(183, 100%, 15%);
+}
+.right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+    width: 50%;
+    height: 400px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 15px;
+}
+.tip{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    color: hsl(189, 41%, 97%);
+    font-size: 10px;
+}
+
+.tipZero
+{
+    color: hsl(172, 67%, 45%);
+    padding-left: 90px; 
+    font-size: 28px;
+    font-weight: 700;
+}
+.zero{
+    color: hsl(172, 67%, 45%);
+    padding-left: 150px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.right .zaeb{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right .middle{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2%;
+}
+svg{
+    color: hsl(172, 67%, 45%);
+}
+.reset{
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    background-color: hsl(172, 67%, 45%);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(183, 100%, 15%);
+}
+.reset:hover{
+    background-color: hsl(172, 67%, 45%, 0.6);
+
+}
+
+.dollarSign{
+    color: hsl(172, 67%, 45%);;
+}
+.spliter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    color: hsl(183, 100%, 15%);
+    font-size: 20px;
+    font-weight: 700;
+} 
+.spli{
+    margin-bottom: 0 auto;
+    letter-spacing: .1rem;
+}
+.tter{
+    margin-top: 0 auto;
+}
+/* My info */
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    color: hsl(183, 100%, 15%);
+    font-size: 20px;
+}
+
+.kudzuya{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    color: hsl(183, 100%, 15%);
+    font-size: 20px;
+}
+
+.kudzuya a {
+    color: hsl(183, 100%, 15%);
+    font-size: 20px;
+    transition: 0.5;
+}
+
+.kudzuya a:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* endInfo*/
+
+/* mobile settings */
+@media screen and (max-width: 1000px)
+{
+    main {
+        height: 100%;
+        display: block;
+    }
+    .card{
+        width: 100%;
+        display: block;
+        gap: 0;
+        border-radius: 3% 3% 0% 0%;
+        }
+    .left{
+        height: 100%;
+        width: 100%;
+        border-radius: 3% 3% 0% 0%;
+    }
+    .right{
+        display: block;
+        height: 100%;
+        width: 100%;
+        border-radius: 0% 0% 3% 3%;
+    }
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+      }
+
+    .kudzuya{
+        position: relative;
+        top: 500px;
+        bottom: 0;
+        width: 100%;
+        color: hsl(183, 100%, 15%);
+    }
+    .kudzuya a {
+        color: hsl(183, 100%, 15%);
+        font-size: 20px;
+        transition: 0.5;
+    }
+      
+}
